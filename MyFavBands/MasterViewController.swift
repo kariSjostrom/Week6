@@ -43,7 +43,7 @@ class MasterViewController: UITableViewController {
         //        self.navigationItem.rightBarButtonItem = addButton
         
         //6) Add Title
-        title = "My Favorite Musical Artists"
+        title = "Music I like"
         
         if let split = self.splitViewController { let controllers = split.viewControllers; self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController }
     }
